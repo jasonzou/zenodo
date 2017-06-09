@@ -77,4 +77,5 @@ COPY ./docker/docker-entrypoint.sh /
 USER zenodo
 VOLUME ["/code/zenodo"]
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["zenodo", "run", "-h", "0.0.0.0"]
+#CMD ["zenodo", "run", "-h", "0.0.0.0"]
+CMD []
